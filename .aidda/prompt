@@ -1,0 +1,13 @@
+write a fuzzy-match libary in go
+
+The primary function is Match(), which takes a string and a list of
+strings and returns all matches from the list, sorted by similarity to
+the input string.  Each match includes the original string, the similarity
+score, the number of insertions, deletions, and substitutions required to
+change the input string into the match, and the position of the match in
+the list.
+
+Sysmsg: You are an expert Go programmer. Please make the requested changes to the given code or documentation.
+In: README.md
+Out: README.md
+    fuzzy.go
